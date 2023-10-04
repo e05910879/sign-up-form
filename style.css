@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+.form {
+    display: flex;
+}
+
+.left {
+    height: 100vh;
+    width: 35vw;
+    background-image: url(./images/flora.jpg);
+    background-size: cover;
+}
+
+.right {
+    /* display: flex;
+    flex-direction: column; */
+    width: 65vw;
+    background-color: rgb(249	250	251	);
+    position: relative;
+}
+
+.middle {
+    width: 65vw;
+    height: calc(100vh/3);
+    background-color: white;
+    box-shadow: 1px 5px 10px lightgray;
+
+    position: absolute;
+    top: calc(100vh/3);
+}
