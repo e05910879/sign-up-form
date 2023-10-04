@@ -21,13 +21,26 @@ body {
     /* display: flex;
     flex-direction: column; */
     width: 65vw;
+    height: 100vh;
     background-color: rgb(249	250	251	);
     position: relative;
 }
 
+.top {
+    position: absolute;
+    top: 0vh;
+
+    width: 100%;
+    height: calc(100%/3);
+    background-color: rgba(255,255,255,0);
+
+    box-sizing: border-box;
+    padding: 5%;
+}
+
 .middle {
-    width: 65vw;
-    height: calc(100vh/3);
+    width: 100%;
+    height: calc(100%/3);
     background-color: white;
     box-shadow: 1px 5px 10px lightgray;
 
@@ -36,14 +49,3 @@ body {
     top: calc(100%/3);
 }
 
-.top {
-    position: absolute;
-    top: 0vh;
-
-    width: 65vw;
-    height: calc(100vh/3);
-    background-color: rgba(255,255,255,0);
-
-    box-sizing: border-box;
-    padding: 5%;
-}
