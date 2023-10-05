@@ -200,3 +200,7 @@ button {
 .login {
     margin-top: 3%;
 }
+
+#password:invalid,#confirm:invalid {
+    border: 1px solid red;
+}
