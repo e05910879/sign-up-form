@@ -7,9 +7,10 @@ body {
     margin: 0;
 }
 
-/* p {
+p {
     margin: 0;
-} */
+    font-family: system-ui;
+}
 
 .form {
     display: flex;
@@ -54,6 +55,24 @@ img {
     top: 8%;
 }
 
+.credit {
+    position: absolute;
+    bottom: 2.5%;
+
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: lightgrey;
+    font-weight: 200;
+}
+
+a {
+    color: lightgrey;
+}
+
 
 .right {
     /* display: flex;
@@ -73,7 +92,16 @@ img {
     background-color: rgba(255,255,255,0);
 
     box-sizing: border-box;
-    padding: 5%;
+    padding: 10% 37% 5% 5%;
+}
+
+.par-1, .par-2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.par-1 {
+    margin-bottom: 1.2rem;
 }
 
 .middle {
