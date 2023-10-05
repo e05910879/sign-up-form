@@ -204,3 +204,20 @@ button {
 #password:invalid,#confirm:invalid {
     border: 1px solid red;
 }
+
+input:invalid + span {
+    position: relative;
+}
+
+input:invalid + span::after {
+    position: absolute;
+    content: '* Passwords do not match';
+    color: red;
+    font-size: 0.6rem;
+    top: 1px;
+}
+
+input:focus {
+    box-shadow: 1px 5px 10px lightgray;
+    border: 1px solid blue;
+}
