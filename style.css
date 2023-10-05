@@ -176,6 +176,8 @@ input {
 
     box-sizing: border-box;
     padding: 3% 5%;   
+
+    font-family: system-ui;
 }
 
 button {
@@ -187,5 +189,14 @@ button {
     color:white;
     font-size: 1rem;
     font-weight: 700;
+}
 
+.login-link {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 600;
+}
+
+.login {
+    margin-top: 3%;
 }
